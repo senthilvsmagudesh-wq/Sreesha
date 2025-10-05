@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top Collections | S Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-image: url('images/bg-product.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #4c1d95;
+      font-family: sans-serif;
+    }
+
+    .title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      text-shadow: 0 0 8px #f0d9ff, 0 0 12px #d4a5ff;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #7c3aed;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: rgb(236, 165, 250);
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 20px rgba(190, 140, 255, 0.2);
+      overflow: hidden;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #e0b3ff;
+    }
+
+    .btn-buy {
+      background: linear-gradient(to right, #592f83, #c048d3);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn-buy:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to right, #a56cff, #d56ff9);
+      box-shadow: 0 0 10px #f3c8ff;
+    }
+  </style>
+</head>
+<body class="py-10 px-4">
+
+  <!-- Page Title -->
+  <h1 class="title text-center mb-4">💜 Top Collections💜</h1>
+  <p class="text-center mb-10 italic text-purple-600">Discover your magical look</p>
+
+  <!-- Dresses Section -->
+  <div class="max-w-6xl mx-auto">
+    <h2 class="section-title text-center mb-6">💜 Dress Collection💜</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+      <!-- 10 Dress Cards -->
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-7.png" alt="Dress 1" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Lavender Dream</h3>
+        <p class="text-sm text-purple-600 mb-3">Tulle with sparkle in fairytale cut.</p>
+        <button class="btn-buy" onclick="alert('You selected: Lavender Dream 💜')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-8.png" alt="Dress 2" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Royal Rose</h3>
+        <p class="text-sm text-purple-600 mb-3">Rose embroidery with princess sleeves.</p>
+        <button class="btn-buy" onclick="alert('You selected: Royal Rose 💗')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-9.png" alt="Dress 3" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Golden Belle</h3>
+        <p class="text-sm text-purple-600 mb-3">Magical golden gown for royalty.</p>
+        <button class="btn-buy" onclick="alert('You selected: Golden Belle 💛')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-1.png" alt="Dress 4" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Pink Charm</h3>
+        <p class="text-sm text-purple-600 mb-3">Floral soft layered princess dress.</p>
+        <button class="btn-buy" onclick="alert('You selected: Pink Charm 💗')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-2.png" alt="Dress 5" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Violet Grace</h3>
+        <p class="text-sm text-purple-600 mb-3">Violet sparkles in layered style.</p>
+        <button class="btn-buy" onclick="alert('You selected: Violet Grace 💜')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-6.png" alt="Dress 6" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Snow Princess</h3>
+        <p class="text-sm text-purple-600 mb-3">White satin with crystal shine.</p>
+        <button class="btn-buy" onclick="alert('You selected: Snow Princess 💙')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-4.png" alt="Dress 7" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Fairy Bloom</h3>
+        <p class="text-sm text-purple-600 mb-3">Pastel florals for dreamy vibes.</p>
+        <button class="btn-buy" onclick="alert('You selected: Fairy Bloom 🖤')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-5.png" alt="Dress 8" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Mint Sparkle</h3>
+        <p class="text-sm text-purple-600 mb-3">Fresh mint shimmer with flow.</p>
+        <button class="btn-buy" onclick="alert('You selected: Mint Sparkle 💚')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-3.png" alt="Dress 9" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Cinderella Blue</h3>
+        <p class="text-sm text-purple-600 mb-3">Classic ballgown with soft glow.</p>
+        <button class="btn-buy" onclick="alert('You selected: Cinderella Blue 💙')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/product-dress-10.png" alt="Dress 10" class="mx-auto w-44 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Evening Lilac</h3>
+        <p class="text-sm text-purple-600 mb-3">Elegant lilac with royal silk touch.</p>
+        <button class="btn-buy" onclick="alert('You selected: Evening Lilac 🤍')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jewellery Section -->
+  <div class="max-w-6xl mx-auto mt-16">
+    <h2 class="section-title text-center mb-6">💍 Jewellery Collection</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+      <!-- 5 Jewellery Cards -->
+      <div class="card p-4 text-center">
+        <img src="images/jewel-1.png" alt="Jewel 1" class="mx-auto w-28 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Diamond Bloom</h3>
+        <p class="text-sm text-purple-600 mb-3">Sparkling silver floral necklace.</p>
+        <button class="btn-buy" onclick="alert('You selected: Diamond Bloom 💘')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/jewel-2.png" alt="Jewel 2" class="mx-auto w-28 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Crystal Drop</h3>
+        <p class="text-sm text-purple-600 mb-3">Elegant drop earrings with shimmer.</p>
+        <button class="btn-buy" onclick="alert('You selected: Crystal Drop 💫')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/jewel-3.png" alt="Jewel 3" class="mx-auto w-28 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Royal choker</h3>
+        <p class="text-sm text-purple-600 mb-3">Princess tiara with jewel glow.</p>
+        <button class="btn-buy" onclick="alert('You selected: Royal Choker 💜')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/jewel-4.png" alt="Jewel 4" class="mx-auto w-28 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Fairy Bridal set</h3>
+        <p class="text-sm text-purple-600 mb-3">Twinkling and stunning bridal set.</p>
+        <button class="btn-buy" onclick="alert('You selected: Fairy Bridal set 💛')">Buy Now</button>
+      </div>
+      <div class="card p-4 text-center">
+        <img src="images/jewel-5.png" alt="Jewel 5" class="mx-auto w-28 mb-4">
+        <h3 class="text-xl font-semibold mb-2">Magical set</h3>
+        <p class="text-sm text-purple-600 mb-3">Elegant and magical set.</p>
+        <button class="btn-buy" onclick="alert('You selected: Magical set💕')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back Button -->
+  <div class="text-center mt-16">
+    <a href="index.html" class="btn-buy">🏡home</a> 
+
+  </div>
+
+
+</body>
+</html>

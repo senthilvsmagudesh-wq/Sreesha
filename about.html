@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | S Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-image: url('images/bg-product.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: sans-serif;
+      color: #4c1d95;
+    }
+
+    .title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      text-shadow: 0 0 8px #f0d9ff, 0 0 12px #d4a5ff;
+      animation: float 3s ease-in-out infinite;/*font float aagum*/
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .info-box {
+      background: rgba(218, 167, 241, 0.979);
+      backdrop-filter: blur(10px);
+      border: 2px solid #d8b4fe;
+      border-radius: 1.5rem;
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(216, 180, 254, 0.5);
+    }
+/*glitter panum button ellam*/
+    .btn {
+      background: linear-gradient(to right, #c084fc, #e879f9);
+      color: white;
+      padding: 10px 24px;
+      border-radius: 999px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #a56cff, #d56ff9);
+      transform: scale(1.05);
+      box-shadow: 0 0 12px #f3c8ff;
+    }
+
+    .timeline-step {
+      border-left: 4px solid #d8b4fe;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+      animation: fadeIn 1s ease-in-out both;
+    }
+/*hover panna zoom and glove aagum */
+    .highlight-card {
+      background: rgba(218, 167, 241, 0.979);
+      backdrop-filter: blur(6px);
+      padding: 1.5rem;
+      border-radius: 1.25rem;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(220, 180, 255, 0.3);
+      transition: 0.3s ease;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(180, 140, 255, 0.4);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .testimonial {
+      background-color:rgba(218, 167, 241, 0.979);
+      border-radius: 1.25rem;
+      padding: 1.5rem;
+      box-shadow: 0 0 10px rgba(216, 180, 255, 0.4);
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body class="py-10 px-4">
+
+  <div class="max-w-5xl mx-auto space-y-16 text-center">
+
+    <!-- Title -->
+    <h1 class="title text-purple-800">💜About S Design💜</h1>
+
+    <!-- Story -->
+    <div class="info-box text-left text-lg text-purple-800">
+      <p>
+        Welcome to <strong>S Design</strong> — where elegance meets enchantment! ✨  
+        Inspired by fairy tales and royal dreams, our shop brings magical fashion to life.  
+        Every piece is crafted with sparkle and love 💖
+      </p>
+    </div>
+
+    <!-- Timeline -->
+    <div>
+      <h2 class="text-2xl font-bold text-purple-700 mb-4">🌸 Our Journey</h2>
+      <div class="text-left max-w-3xl mx-auto">
+        <div class="timeline-step">👑 <strong>2019</strong> – The dream of S Design was born</div>
+        <div class="timeline-step">🧵 <strong>2020</strong> – First dress collection launched</div>
+        <div class="timeline-step">💫 <strong>2022</strong> – Over 1000+ happy customers</div>
+        <div class="timeline-step">🌍 <strong>2025</strong> – Our magical online store opened!</div>
+      </div>
+    </div>
+
+    <!-- Highlights -->
+    <div>
+      <h2 class="text-2xl font-bold text-purple-700 mb-4">💎 Why Choose Us?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div class="highlight-card">👗 Magical Princess Designs</div>
+        <div class="highlight-card">💖 Quality Fabric & Embroidery</div>
+        <div class="highlight-card">📦 Custom Orders & Fast Delivery</div>
+        <div class="highlight-card">🌟 Trusted by 1000+ Customers</div>
+      </div>
+    </div>
+
+    <!-- Founder -->
+    <div>
+      <h2 class="text-2xl font-bold text-purple-700 mb-4">👸 Meet the Founder</h2>
+      <div class="info-box">
+        <img src="images/founder.png" alt="Founder" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+        <p>
+  <strong>Sreesha</strong> – the visionary behind <strong>S Design</strong>, isn’t just a designer; she is a dream-weaver. Ever since childhood, she was enchanted by fairy tales, flowing gowns, and magical moments. What began as a little girl sketching princess dresses in her diary has today bloomed into a beautiful boutique loved by hundreds. 💖<br/><br/>
+  With an eye for detail, a heart full of creativity, and hands that craft with love, Sreesha makes every outfit feel like a fairytale come true. Her mission is simple — “To make every girl feel like royalty.” From handpicked fabrics to delicate embroidery, every gown at S Design carries a piece of her magic ✨<br/><br/>
+  Today, S Design is more than just a store; it's a space where dreams are stitched, sparkles are added, and memories are made. Through Sreesha’s passion, every customer finds not just a dress – but their moment to shine like a star. 🌟
+</p>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div>
+      <h2 class="text-2xl font-bold text-purple-700 mb-4">💬 What Our Customers Say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div class="testimonial">“I felt like a real princess on my birthday!”<br/>– varsha, yercaurd</div>
+        <div class="testimonial">“Quality, delivery, and sparkle – all 10/10!”<br/>– sonalika, mettur</div>
+        <div class="testimonial">“My daughter loves her pink gown 💕”<br/>– soundarya,kumbakonam</div>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex justify-center gap-4 mt-10">
+      <a href="index.html" class="btn">← Back Home</a>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

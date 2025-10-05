@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>S Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-image: url('images/background-full.png');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      color: #4c1d95;
+      
+    }
+/*kada peru munadi vara use panrom*/
+    .logo-text {
+      font-family: 'Great Vibes', cursive;
+      text-shadow: 0 0 8px #ff7ccd, 0 0 16px #d4a5ff, 0 0 30px #e0b3ff;
+      animation: fadeIn 2s ease-in-out forwards;
+      opacity: 0;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; transform: scale(1); }
+      from { opacity: 0; transform: scale(0.95); }
+    }
+
+    .float {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+
+    /* Magical Button kaga code */
+    .magic-btn {
+      position: relative;
+      padding: 12px 28px;
+      font-size: 1.1rem;
+      border-radius: 9999px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(to right, #8842ce, #e15ff5);
+      box-shadow: 0 0 15px #d8b4fe;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      overflow: hidden;
+    }
+
+    .magic-btn:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 25px #f0abfc;
+    }
+
+    .sparkle {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: white;
+      border-radius: 9999px;
+      pointer-events: none;
+      box-shadow: 0 0 6px white, 0 0 12px #f0d9ff;
+      animation: sparkle-fade 1s ease-out forwards;
+    }
+
+    @keyframes sparkle-fade {
+      0% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(2); }
+    }
+  </style>
+
+</head>
+<body class="flex flex-col items-center justify-center text-center px-4 pt-10 pb-10">
+
+ 
+<!-- Logo -->
+<img src="images/logo-sdesign.png" alt="S Design Logo" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg">
+  <h1 class="text-6xl md:text-7xl font-bold logo-text mb-3"> S Design </h1>
+  <p class="text-lg md:text-xl font-bold logo-text mb-3">Where Royalty Begins With Style</p>
+    </style>
+</head>
+<body>
+
+    
+</body>
+
+
+
+  <!-- Navigation Buttons with Sparkle -->
+  <div class="flex flex-wrap gap-6 justify-center">
+    <a href="product.html" class="magic-btn" onclick="addSparkle(event)">💝 Product</a>
+    <a href="about.html" class="magic-btn" onclick="addSparkle(event)">💖 About</a>
+    <a href="contact.html" class="magic-btn" onclick="addSparkle(event)">📞 Contact</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-sm italic mt-16 text-purple-900">
+    © 2025 S Design – Every girl deserves a fairy tale
+  </footer>
+
+  <!-- ✨ JavaScript Magic Sparkle Effect -->
+<!-- <script>
+    function addSparkle(e) {
+      const btn = e.currentTarget;
+      const sparkle = document.createElement('span');
+      sparkle.classList.add('sparkle');
+      sparkle.style.left = (e.offsetX - 6) + 'px';
+      sparkle.style.top = (e.offsetY - 6) + 'px';
+      btn.appendChild(sparkle);
+
+      setTimeout(() => sparkle.remove(), 1000);
+    }
+  </script>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Logo Effect</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo-container {
+            /* Establishes the 3D space for children */
+            perspective: 1000px; /* Adjust this value for more or less depth */
+            perspective-origin: center center;
+        }
+
+        .logo-3d {
+            width: 200px; /* Adjust as needed for your logo size */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            transition: transform 0.5s ease-in-out; /* Smooth transition for hover effect */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow for depth */
+            border-radius: 10px; /* Optional: if your logo has rounded corners or you want a card effect */
+
+            /* Initial 3D tilt */
+            transform: rotateX(15deg) rotateY(-15deg); /* Adjust these angles for different tilts */
+        }
+
+        /* Optional: Add an interactive hover effect */
+        .logo-3d:hover {
+            transform: rotateX(0deg) rotateY(0deg) scale(1.05); /* Straighten up and slightly enlarge on hover */
+            box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+        }
+    </style>-->
+</head>
+<body>
+
+</body>
+</html>
